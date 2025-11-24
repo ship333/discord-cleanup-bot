@@ -24,8 +24,8 @@ Make sure your bot has these permissions in the Discord server:
 
 ### 3. Bot Configuration
 Current settings in `discord_cleanup.py`:
-- **Target User ID:** `1021871981584466002`
-- **Target Channel ID:** `1441535358469931060`
+- **Target User ID:** `1111111111111111111`
+- **Target Channel ID:** `2222222222222222222`
 - **Delete Delay:** 1.5 seconds
 
 ### 4. Test the Bot
