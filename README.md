@@ -45,17 +45,27 @@ The bot is currently in **DRY_RUN mode** (line 9). It will show what would be de
 
 ## Configuration
 
-Edit these values in `discord_cleanup.py`:
+Edit these values in `discord_cleanup.py` (template version):
 
 ```python
-TARGET_USER_ID = 1021871981584466002  # User whose messages to delete
-TARGET_CHANNEL_IDS = [1441535358469931060]  # Channels to scan
-DELETE_DELAY = 1.5  # Seconds between deletions
-DRY_RUN = True  # Set to False to actually delete
+# Your bot token from the Discord Developer Portal
+TOKEN = "YOUR_BOT_TOKEN_HERE"
+
+# The user ID whose messages you want to delete
+TARGET_USER_ID = 123456789012345678  # Replace with the user ID to clean up
+
+# Channels to search (Discord channel IDs as integers)
+TARGET_CHANNEL_IDS = [111111111111111111, 222222222222222222]  # Replace with your channel IDs
+
+# TEST MODE: See what would be deleted without actually deleting
+DRY_RUN = True  # Set to True for testing, False to actually delete
 
 # Time filters (optional)
-DELETE_AFTER = None  # Delete messages after this date
-DELETE_BEFORE = None  # Delete messages before this date
+DELETE_AFTER = None  # Delete messages after this date/time (or relative range)
+DELETE_BEFORE = None  # Delete messages before this date/time
+
+# Rate limiting
+DELETE_DELAY = 1.5  # Seconds between deletions
 ```
 
 ### Time-Based Filtering
