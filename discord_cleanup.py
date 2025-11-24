@@ -1,3 +1,4 @@
+from cmd import IDENTCHARS
 import discord
 import asyncio
 from datetime import datetime, timezone, timedelta
@@ -11,7 +12,7 @@ from datetime import datetime, timezone, timedelta
 TOKEN = "YOUR_BOT_TOKEN_HERE"
 
 # The user ID whose messages you want to delete (example placeholder)
-TARGET_USER_ID = 123456789012345678  # Replace with the user ID to clean up
+TARGET_USER_ID = Discord UserID  # Replace with the user ID to clean up
 
 # Channels to search (Discord channel IDs as integers)
 TARGET_CHANNEL_IDS = [111111111111111111, 222222222222222222]  # Replace with your channel IDs
