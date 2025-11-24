@@ -1,0 +1,4 @@
+# Local/private config
+discord_cleanup.private.py
+.env
+.env.*

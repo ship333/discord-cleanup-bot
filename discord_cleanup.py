@@ -4,14 +4,20 @@ from datetime import datetime, timezone, timedelta
 
 # ============================================================================
 # EASY CONFIGURATION - EDIT THESE VALUES
+# (This is the PUBLIC template version - do not put real secrets in here)
 # ============================================================================
 
-TOKEN = "MTQ0MTUzNTY0MDg1OTgzNjYwOA.GOfbT0.WlOeQiUPv5wxAGDyRUfD2PlsFhn7v2b2dZo1B8"
-TARGET_USER_ID = 1021871981584466002  # User whose messages to delete
-TARGET_CHANNEL_IDS = [1441535358469931060,1441543844456828949,1441543955232850065]  # Channels to search
+# Your bot token from the Discord Developer Portal
+TOKEN = "YOUR_BOT_TOKEN_HERE"
+
+# The user ID whose messages you want to delete (example placeholder)
+TARGET_USER_ID = 123456789012345678  # Replace with the user ID to clean up
+
+# Channels to search (Discord channel IDs as integers)
+TARGET_CHANNEL_IDS = [111111111111111111, 222222222222222222]  # Replace with your channel IDs
 
 # TEST MODE: See what would be deleted without actually deleting
-DRY_RUN = False # Set to True for testing, False to actually delete
+DRY_RUN = True  # Set to True for testing, False to actually delete
 
 # ============================================================================
 # TIME RANGE CONFIGURATION (Choose ONE option below)
