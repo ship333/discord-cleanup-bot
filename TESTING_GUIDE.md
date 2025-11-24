@@ -48,7 +48,7 @@ python discord_cleanup.py
 #### Successful Login:
 ```
 Logged in as YourBotName#1234
-Checking channel: channel-name (1441535358469931060)
+Checking channel: channel-name (2222222222222222222)
 ```
 
 #### Finding Messages:
