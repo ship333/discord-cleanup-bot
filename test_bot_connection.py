@@ -4,7 +4,7 @@ Quick test script to verify bot can connect and see the channel
 import discord
 
 TOKEN = "MTQ0MTUzNTY0MDg1OTgzNjYwOA.GOfbT0.WlOeQiUPv5wxAGDyRUfD2PlsFhn7v2b2dZo1B8"
-TARGET_CHANNEL_ID = 1441535358469931060
+TARGET_CHANNEL_ID = 1111111111111111111
 
 class TestBot(discord.Client):
     async def on_ready(self):
